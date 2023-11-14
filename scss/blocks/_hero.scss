@@ -1,0 +1,37 @@
+.hero {
+  margin: 183px 0 322px;
+  // position: absolute;
+  // background: grey;
+}
+.hero__wrapper {
+  display: flex;
+  z-index: 999;
+}
+.hero__content {
+  // padding: 285px 0 322px 88px;
+  display: flex;
+  max-width: 779px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1.12px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__content {
+    color: #fff;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%; 
+  }
+}
