@@ -500,4 +500,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list {
+    justify-content: center;
+    flex-grow: 1;
+  }
 }/*# sourceMappingURL=main.css.map */

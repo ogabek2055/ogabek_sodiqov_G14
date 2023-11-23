@@ -37,3 +37,14 @@
   flex-direction: column;
   gap: 60px;
 }
+@media screen and (max-width: 767px) {
+  // .footer__wrapper {
+    // display: flex;
+    // flex-direction: column;
+    
+  // }
+  .footer__list {
+   justify-content: center;
+   flex-grow: 1;
+  }
+}
